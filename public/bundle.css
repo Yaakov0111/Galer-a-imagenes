@@ -229,3 +229,19 @@ a {
   margin-bottom: 150px;
   color: #888;
 } /*# sourceMappingURL=bundle.css.map */
+
+/* Estilo por defecto para .hero */
+
+/* Estilo para .hero cuando la pantalla es menor a 600px */
+@media (max-width: 600px) {
+  .hero__titulo {
+    font-size: 50px;
+    color: white;
+    display: block;
+    text-align: center;
+  }
+  .categorias {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+}
